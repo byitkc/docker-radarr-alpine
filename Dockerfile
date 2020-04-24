@@ -10,4 +10,4 @@ COPY Radarr /opt
 
 EXPOSE 7878
 
-ENTRYPOINT ["/usr/bin/mono", "/opt/Radarr/Radarr.exe"]
+ENTRYPOINT ["/usr/bin/mono", "/opt/Radarr.exe"]
